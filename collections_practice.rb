@@ -20,7 +20,6 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each do |n|
-    n[2, 1] = "$"
-  end
+  array[3..pos-1] + array[pos+1..-1]
+  array[3,1] = "$"
 end
